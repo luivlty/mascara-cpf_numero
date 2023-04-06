@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="style.css">
+    <div class="custom-form__group">
+        <input onblur="formataCPF(this)" oninput="mascara(this)" pattern="\d{3}\.\d{3}\.\d{3}-\d{2}" type="text" name="cpf" id="cpf-input" placeholder="Digite seu CPF" required inputmode="numeric" title="Digite um CPF no formato: nnn.nnn.nnn-nn">
+        <label class="group__label" for="cpf-input">CPF</label>
+    </div>
+
+    <label for="telefone">Ex.: (11) 91234-1234</label>
+<br>
+<input type="text" name="celular" id="celular" maxlength="15" />
+<script src="script.js"></script>
